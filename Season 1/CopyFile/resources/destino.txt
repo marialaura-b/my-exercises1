@@ -1,0 +1,15 @@
+Sem saber Java, eu me perco,
+Em linhas de código que não entendo,
+Classes e métodos me confundem,
+E o compilador me repreende, sofrendo.
+
+Tento compilar, mas erro recebo,
+A sintaxe fria, tão cruel e distante,
+Enquanto o console em silêncio me diz,
+Que meu código falha a cada instante.
+
+Vago sozinho no Eclipse vazio,
+O "Hello, World" se esvai na escuridão,
+E assim permaneço, perdido no frio,
+Com meu código quebrado, sem salvação.
+

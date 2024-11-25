@@ -1,0 +1,94 @@
+body {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.title {
+    font-size: 50px; 
+    color: black; 
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+    display: inline-block;
+}
+
+.little-box {
+    width: 100px; 
+    height: 40px; 
+    background-color: white; 
+    margin: 0px;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    position: fixed;
+    top: 300px;
+    left: 200px;
+    font-size: 25px;
+    display: flex; 
+    overflow: scroll;
+    z-index: 1;
+}
+.box {
+    width: 300px;
+    height: 200px; 
+    background-color: green; 
+    border: 7px solid black;
+    box-shadow: 0 0 0 30px orange; 
+    margin: 90px;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    z-index: 2;
+}
+
+
+.padding-botton {   
+    width: 100px; 
+    height: 40px; 
+    background-color: green; 
+    margin: 0px;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    position: fixed;
+    top: 410px;
+    left: 500px;
+    font-size: 25px;
+    display: flex; 
+
+}
+
+.margin-botton {
+    width: 100px; 
+    height: 40px; 
+    background-color: orange; 
+    margin: 0px;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    position: fixed;
+    top: 410px;
+    left: 620px;
+    font-size: 25px;
+    display: flex; 
+}
+
+.border-botton {
+    width: 100px;
+    height: 40px; 
+    background-color: white; 
+    border: 6px solid black;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    position: fixed;
+    top: 405px;
+    left: 750px;
+    font-size: 25px;
+    display: flex; 
+}
