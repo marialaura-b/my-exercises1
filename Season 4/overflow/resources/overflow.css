@@ -46,6 +46,68 @@ body {
     z-index: 2;
 }
 
+.box1 {
+    width: 300px;
+    height: 200px; 
+    background-color: green; 
+    border: 7px solid black;
+    box-shadow: 0 0 0 30px orange; 
+    margin: 90px;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    z-index: 2;
+}
+
+.little-box1 {
+    width: 100px; 
+    height: 40px; 
+    background-color: white; 
+    margin: 0px;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    position: fixed;
+    top: 300px;
+    left: 200px;
+    font-size: 25px;
+    display: flex; 
+    overflow: scroll;
+    z-index: 1;
+}
+.box2 {
+    width: 300px;
+    height: 200px; 
+    background-color: green; 
+    border: 7px solid black;
+    box-shadow: 0 0 0 30px orange; 
+    margin: 90px;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    z-index: 2;
+}
+
+.little-box2 {
+    width: 100px; 
+    height: 40px; 
+    background-color: white; 
+    margin: 0px;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    position: fixed;
+    top: 300px;
+    left: 200px;
+    font-size: 25px;
+    display: flex; 
+    overflow: scroll;
+    z-index: 1;
+}
 
 .padding-botton {   
     width: 100px; 
