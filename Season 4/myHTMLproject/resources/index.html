@@ -1,40 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="profile.css">
-    <script src="https://kit.fontawesome.com/2be8babfbc.js" crossorigin="anonymous"></script> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Igor's Profile</title>
+  <link rel="stylesheet" href="IgorProfile.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-
-    <h1><strong></strong>Welcome to Igor's Profile<Strong></Strong></h1>
-
-    <hr>
-
-    <a href="www.academiadecodigo.org" target="_blank">
-        <img src="https://ca.slack-edge.com/T0J8THHCZ-U07MUDUBL56-2d3c5f93b3b5-512" width="300" alt="my image"/>
-        
-    </a>
-
-    <hr>
-
-    <ul>
-        <li>Photographer</li>
-        <li>Mineiro, UAI</li>
-        <li>Airplane lover</li>
-    </ul>
-    
-    <hr>
-
-    <a href="www.academiadecodigo.org" target="_blank"><i class="fa-brands fa-github"></i></a>
-    
+  <div class="container">
+    <div class="text-center">
+      <h1>Igor's Profile</h1>
+      <small><i>Last update: Tuesday, 26th november, 2024 </i></small>
+    </div>
+    <!-- Perfil -->
+    <div class="row ">
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <div class="card-body text-center">
+            <img src="https://ca.slack-edge.com/T0J8THHCZ-U07MUDUBL56-2d3c5f93b3b5-512" alt="Igor" class="rounded-circle" width="150">
+            <h5 class="card-title">Photographer and wannabe programmer</h5>
+            <p class="text-muted">@Code For All_</p>
+            <p>
+              <strong>Phone:</strong> +351 999999999 <br>
+              <strong>Email:</strong> igor@codeforall.org
+            </p>
+            <div class="justify-content-center">
+              <button type="button" class="btn btn-dark">Github</button>
+              <button type="button" class="btn btn-primary">Linkedin</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Personality -->
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Personality</h5>
+            <p> Mineiro </p>
+            <div class="progress mb-3">
+              <div class="progress-bar-striped bg-danger" style="width: 100%;">100%</div>
+            </div>
+            <p> Photographer <span class="text-muted"></span></p>
+            <div class="progress mb-3">
+              <div class="progress-bar-striped bg-success" style="width: 99%;">99%</div>
+            </div>
+            <p> Airplane lover <span class="text-muted"></span></p>
+            <div class="progress mb-3">
+              <div class="progress-bar-striped bg-info" style="width: 99%;">99%</div>
+            </div>
+            <p> Programming <span class="text-muted"></span></p>
+            <div class="progress mb-3">
+              <div class="progress-bar-striped bg-warning" style="width: 50%;">50%</div>
+            </div>
+            <p> Malta <span class="text-muted">(Didn't know what it meant when arrived) </span></p>
+            <div class="progress mb-3">
+              <div class="progress-bar-striped bg-danger" style="width: 40%;">40%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
-
-
-           
 </html>
