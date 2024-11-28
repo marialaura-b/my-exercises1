@@ -15,7 +15,7 @@
 
     <servlet-mapping>
         <servlet-name>tobias</servlet-name>
-        <url-pattern>/batata</url-pattern>
+        <url-pattern>/card</url-pattern>
     </servlet-mapping>
 
 

@@ -14,7 +14,7 @@
 <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
     <div class="card-header">JAVABANK - Customer #1</div>
     <div class="card-body">
-        <h5 class="card-title">Welcome ${user.name}</h5>
+        <h5 class="card-title">${user.name}</h5>
         <p class="card-text"> Email: ${user.email}</p>
         <p class="card-text"> Phone: ${user.phone}</p>
     </div>

@@ -15,8 +15,8 @@ public class Servlet extends HttpServlet {
 
         User user = new User();
 
-        user.setName("Catarina Campino");
-        user.setEmail("catarina.campino@academiadecodigo.org");
+        user.setName("Rui Ferrão");
+        user.setEmail("rui@academiadecodigo.org");
         user.setPhone(999999);
 
         getServletContext().setAttribute("user", user);
