@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="web-mvc" />
+        <module name="WebMVC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="WebMVC" target="19" />
+      <module name="myFirstWebApp" target="19" />
     </bytecodeTargetLevel>
   </component>
 </project>
